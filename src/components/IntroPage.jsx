@@ -58,6 +58,7 @@ export default function IntroPage() {
         </div>
       </div>
       <div
+        className="introText"
         style={{
           height: "100%",
           position: "fixed",
@@ -75,22 +76,25 @@ export default function IntroPage() {
           textAlign: "center",
         }}
       >
-        <h1>HELLO WORLD!</h1>
-        <h2>
+        <h1 style={{ fontSize: "6vw" }}>HELLO WORLD!</h1>
+        <h2 style={{ fontSize: "3vw" }}>
           I'M AMIR RASHIDINIA, THANKS FOR CHECKING OUT MY PORTFOLIO WEBSITE
         </h2>
-        <h3>
-          I'm a junior Software Developer interested in full stack well
-          development
+        <h3 style={{ fontSize: "2.5vw" }}>
+          Junior Software Developer interested in full stack web development
         </h3>
-        <ul>
-          <li>
-            <a href="/projects">→ see my projects</a>
-          </li>
-          <li>
-            <a href="/about">→ about me</a>
-          </li>
-        </ul>
+        <div
+          style={{
+            fontSize: "2vw",
+            backgroundColor: "purple",
+            borderRadius: "5%",
+            color: "black",
+            padding: "1%",
+          }}
+        >
+          <a href="/projects">→my projects </a>
+          <a href="/about"> →about me </a>
+        </div>
       </div>
     </>
   );
