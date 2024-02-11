@@ -5,7 +5,7 @@ export default function IntroPage() {
         <div className="bubbles">
           <span style={{ "--i": "24" }}></span>
           <span style={{ "--i": "12" }}></span>
-          <span style={{ "--i": "18" }}></span>
+          {/* <span style={{ "--i": "18" }}></span>
           <span style={{ "--i": "27" }}></span>
           <span style={{ "--i": "9" }}></span>
           <span style={{ "--i": "18" }}></span>
@@ -54,7 +54,7 @@ export default function IntroPage() {
           <span style={{ "--i": "19" }}></span>
           <span style={{ "--i": "11" }}></span>
           <span style={{ "--i": "24" }}></span>
-          <span style={{ "--i": "10" }}></span>
+          <span style={{ "--i": "10" }}></span> */}
         </div>
       </div>
       <div
