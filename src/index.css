@@ -27,21 +27,19 @@ body {
   margin: 0 4px;
   border-radius: 50%;
   box-shadow: 0 0 0 10px rgba(0, 255, 255, 10%), 0 0 50px aqua, 0 0 100px aqua;
-  -webkit-animation: animate 15s linear infinite;
+  /* -webkit-animation: animate 15s linear infinite;
   animation: animate 15s linear infinite;
   -webkit-animation-duration: -webkit-calc(120s / var(--i));
-  animation-duration: calc(120s / var(--i));
+  animation-duration: calc(120s / var(--i)); */
 }
 
 .bubbles span:nth-child(even) {
   background-color: purple;
-  margin: 0 4px;
-  border-radius: 50%;
   box-shadow: 0 0 0 10px rgba(128, 0, 128, 30%), 0 0 50px purple,
     0 0 100px purple;
 }
 
-@-webkit-keyframes animate {
+/* @-webkit-keyframes animate {
   0% {
     -webkit-transform: translateY(100vh) scale(0);
     transform: translateY(100vh) scale(0);
@@ -50,7 +48,7 @@ body {
     -webkit-transform: translateY(-10vh) scale(1);
     transform: translateY(-10vh) scale(1);
   }
-}
+} */
 
 a {
   text-decoration: none;
