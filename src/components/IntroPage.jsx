@@ -76,16 +76,15 @@ export default function IntroPage() {
           textAlign: "center",
         }}
       >
-        <h1 style={{ fontSize: "6vw" }}>HELLO WORLD!</h1>
-        <h2 style={{ fontSize: "3vw" }}>
+        <h1>HELLO WORLD!</h1>
+        <h2>
           I'M AMIR RASHIDINIA, THANKS FOR CHECKING OUT MY PORTFOLIO WEBSITE
         </h2>
-        <h3 style={{ fontSize: "2.5vw" }}>
+        <h3>
           Junior Software Developer interested in full stack web development
         </h3>
         <div
           style={{
-            fontSize: "2vw",
             backgroundColor: "purple",
             borderRadius: "5%",
             color: "black",
