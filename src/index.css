@@ -30,7 +30,7 @@ body {
   /* animation: animate 15s linear infinite; */
   animation-name: animate;
   /* -webkit-animation-duration: -webkit-calc(120s / var(--i)); */
-  /* animation-duration: calc(120s / var(--i)); */
+  animation-duration: calc(120s / var(--i));
 }
 
 .bubbles span:nth-child(even) {
