@@ -28,7 +28,6 @@ body {
   border-radius: 50%;
   box-shadow: 0 0 0 10px rgba(0, 255, 255, 10%), 0 0 50px aqua, 0 0 100px aqua;
   animation: animate 15s linear infinite;
-  animation: animate 15s linear infinite;
   animation-duration: calc(120s / var(--i));
 }
 
@@ -40,11 +39,13 @@ body {
     0 0 100px purple;
 }
 
-@keyframes animate {
+@-webkit-keyframes animate {
   0% {
+    -webkit-transform: translateY(100vh) scale(0);
     transform: translateY(100vh) scale(0);
   }
   100% {
+    -webkit-transform: translateY(-10vh) scale(1);
     transform: translateY(-10vh) scale(1);
   }
 }
