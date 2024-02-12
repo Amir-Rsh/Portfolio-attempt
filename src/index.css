@@ -27,11 +27,9 @@ body {
   margin: 0 4px;
   border-radius: 50%;
   box-shadow: 0 0 0 10px rgba(0, 255, 255, 10%), 0 0 50px aqua, 0 0 100px aqua;
-  /* animation: animate 15s linear infinite; */
-  -webkit-animation-name: animate;
-  animation-name: animate;
-  -webkit-animation-duration: -webkit-calc(120s / var(--i));
-  animation-duration: calc(120s / var(--i));
+  animation: animate 15s linear infinite;
+  -webkit-animation-duration: -webkit-calc(10s / var(--i));
+  animation-duration: calc(10s / var(--i));
 }
 
 .bubbles span:nth-child(even) {
