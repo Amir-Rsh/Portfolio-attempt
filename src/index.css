@@ -48,7 +48,7 @@ body {
 } */
 @-webkit-keyframes animate {
   0% {
-    -webkit-transform: translateY(100vh) scale(0.5);
+    -webkit-transform: translateY(100vh) scale(1%);
     /* -webkit-transform: scale(0); */
     /* transform: translateY(100vh) scale(0.1); */
   }
