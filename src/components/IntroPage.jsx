@@ -85,7 +85,7 @@ export default function IntroPage() {
         </h3>
         <div
           style={{
-            backgroundColor: "purple",
+            backgroundColor: "rgba(128, 0, 128, 70%)",
             borderRadius: "5%",
             color: "black",
             padding: "1%",

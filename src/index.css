@@ -39,8 +39,8 @@ body {
 
 @-webkit-keyframes animate {
   0% {
-    -webkit-transform: translateY(100vh) scaleX(0) scaleY(0);
-    transform: translateY(100vh) scaleX(0) scaleY(0);
+    -webkit-transform: translateY(100vh) scale(25%);
+    transform: translateY(100vh) scale(25%);
   }
   100% {
     -webkit-transform: translateY(-10vh) scale(1);
@@ -52,30 +52,15 @@ a {
   text-decoration: none;
   color: inherit;
   font-size: large;
-}
-
-ul {
-  list-style: none;
+  font-style: oblique;
 }
 
 h1 {
-  font-size: 4vw;
+  font-size: xx-large;
 }
 h2 {
-  font-size: 3vw;
+  font-size: x-large;
 }
 h3 {
-  font-size: 2vw;
-}
-
-@media (max-width: 800px) {
-  h1 {
-    font-size: 8vw;
-  }
-  h2 {
-    font-size: 6vw;
-  }
-  h3 {
-    font-size: 4vw;
-  }
+  font-size: large;
 }
