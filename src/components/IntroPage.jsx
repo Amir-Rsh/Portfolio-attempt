@@ -2,31 +2,35 @@ export default function IntroPage() {
   // {">"}
   return (
     <>
-      <div class="container">
+      <div className="container">
         <p id="line1">
-          <span id="inputSign1"></span>HELLO WORLD!
+          <span id="inputSign1">{">"}</span>HELLO WORLD!
         </p>
       </div>
       <br />
-      <div class="container">
+      <div className="container">
         <p id="line2">
-          <span id="inputSign2"></span>I AM AMIR RASHIDINIA
+          <span id="inputSign2">{">"}</span>I AM AMIR RASHIDINIA
         </p>
       </div>
       <br />
-      <div class="container">
+      <div className="container">
         <p id="line3">
-          <span id="inputSign3"></span>WELCOME TO MY PORTFOLIO
+          <span id="inputSign3">{">"}</span>WELCOME TO MY PORTFOLIO
         </p>
       </div>
       <br />
-      <div id="container">
-        <p id="slider"></p>
+      {/* <div id="container">
+        
+      </div> */}
+      <p id="slider">
+        <span id="arrow">{">"}</span>
         <button id="enter">ENTER WEBSITE</button>
-      </div>
-      <p style="margin-bottom: 0%">
+      </p>
+
+      <p id="navDiv" style={{ marginBottom: "0%" }}>
         <img
-          class="logos"
+          className="logos"
           src="https://i.ibb.co/XZwQdtV/Linked-In-logo-initials.png"
           width="150px"
           alt=""
@@ -37,7 +41,7 @@ export default function IntroPage() {
           alt=""
         />
         <img
-          class="logos"
+          className="logos"
           src="https://i.ibb.co/zhzDFnB/git-2.png"
           width="150px"
           height="150px"

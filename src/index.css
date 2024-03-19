@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,15 +9,8 @@ body {
   cursor: default;
   color: green;
 }
-
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: green;
-  width: 100%;
-  padding: 10px;
-  z-index: 10;
-  position: fixed;
+#navDiv {
+  text-align: center;
 }
 
 .logos {
@@ -235,15 +228,20 @@ nav {
     margin: 20px auto 0 auto;
     animation: slide 2s 12s;
   }
+  #arrow {
+    color: green;
+    animation: arrowDissolve 2s forwards 12s;
+  }
   #enter {
-    width: fit-content;
+    justify-self: center;
+    width: 0px;
     font-size: 1em;
     font-family: monospace;
     border-radius: 5%;
     background: transparent;
     padding: 30px;
     border-style: none;
-    animation: showButton 1s forwards 14s;
+    animation: showButton 1s forwards 14.01s;
   }
   #profilePic {
     animation: slideUp 2s forwards 14s;
@@ -281,6 +279,14 @@ nav {
   }
   to {
     color: green;
+  }
+}
+@keyframes arrowDissolve {
+  99% {
+    font-size: 2.4rem;
+  }
+  to {
+    font-size: 0px;
   }
 }
 @keyframes showButton {
