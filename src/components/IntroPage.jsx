@@ -1,26 +1,27 @@
 export default function IntroPage() {
+  // {">"}
   return (
     <>
       <div class="container">
         <p id="line1">
-          <span id="inputSign1">{">"}</span>HELLO WORLD!
+          <span id="inputSign1"></span>HELLO WORLD!
         </p>
       </div>
       <br />
       <div class="container">
         <p id="line2">
-          <span id="inputSign2">{">"}</span>I AM AMIR RASHIDINIA
+          <span id="inputSign2"></span>I AM AMIR RASHIDINIA
         </p>
       </div>
       <br />
       <div class="container">
         <p id="line3">
-          <span id="inputSign3">{">"}</span>WELCOME TO MY PORTFOLIO
+          <span id="inputSign3"></span>WELCOME TO MY PORTFOLIO
         </p>
       </div>
       <br />
       <div id="container">
-        <p id="slider">{">"}</p>
+        <p id="slider"></p>
         <button id="enter">ENTER WEBSITE</button>
       </div>
       <p style="margin-bottom: 0%">
