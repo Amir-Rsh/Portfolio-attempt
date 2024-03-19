@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function IntroPage() {
   // {">"}
   return (
@@ -25,7 +27,9 @@ export default function IntroPage() {
       </div> */}
       <p id="slider">
         <span id="arrow">{">"}</span>
-        <button id="enter">ENTER WEBSITE</button>
+        <Link to={`/home`}>
+          <button id="enter">ENTER WEBSITE</button>
+        </Link>
       </p>
 
       <p id="navDiv" style={{ marginBottom: "0%" }}>
