@@ -4,7 +4,7 @@ export default function IntroPage() {
   // {">"}
   return (
     <>
-      <div className="container">
+      <div style={{ marginTop: "90px" }} className="container">
         <p id="line1">
           <span id="inputSign1">{">"}</span>HELLO WORLD!
         </p>
@@ -22,9 +22,6 @@ export default function IntroPage() {
         </p>
       </div>
       <br />
-      {/* <div id="container">
-        
-      </div> */}
       <p id="slider">
         <span id="arrow">{">"}</span>
         <Link to={`/home`}>

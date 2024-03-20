@@ -19,9 +19,16 @@ export default function HomePage() {
           alt=""
         />
       </nav>
-      <div id="container1">
+      <div id="2ndProject" className="container1">
         <div className="trapezoid1">
-          <p id="bisect2"></p>
+          <p id="aboutMeText">
+            {">"}I am a Junior Software Developer with a passion for turning
+            code into cool looking websites and apps. I recently graduated from
+            a coding bootcamp and i can't wait to start my journey in the world
+            of tech. I constantly work on new projects to increase my knowledge
+            of coding and add to my tech stack.
+          </p>
+          {/* <p id="bisect2"></p> */}
         </div>
         <div id="bisect">
           <p id="about">ABOUT ME</p>
@@ -37,6 +44,15 @@ export default function HomePage() {
         <div className="trapezoid4">
           <p id="bisect4"></p>
         </div>
+      </div>
+      <div className="container1">
+        <div className="trapezoid1">
+          <p id="bisect2"></p>
+        </div>
+        <div id="bisect">
+          <p id="about">ABOUT ME</p>
+        </div>
+        <div className="trapezoid2"></div>
       </div>
     </>
   );
