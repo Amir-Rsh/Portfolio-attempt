@@ -32,7 +32,7 @@ export default function IntroPage() {
       </p>
 
       <p id="navDiv" style={{ marginBottom: "0%" }}>
-        <Link to="https://www.linkedin.com/in/amir-rashidinia">
+        <Link to="https://www.linkedin.com/in/amir-rashidinia" target="_blank">
           {" "}
           <img
             className="logos"
@@ -47,7 +47,7 @@ export default function IntroPage() {
           src="https://i.ibb.co/nn6bFZ6/149586453.png"
           alt=""
         />
-        <Link to="https://github.com/Amir-Rsh">
+        <Link to="https://github.com/Amir-Rsh" target="_blank">
           {" "}
           <img
             className="logos"

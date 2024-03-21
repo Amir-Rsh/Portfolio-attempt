@@ -19,7 +19,7 @@ export default function HomePage() {
         <Link to="https://portfolio-amir-rashidinia.netlify.app/home">
           <img src="https://i.ibb.co/bR7scSZ/logoooo.png" width="40px" alt="" />
         </Link>
-        <Link to="https://www.linkedin.com/in/amir-rashidinia">
+        <Link to="https://www.linkedin.com/in/amir-rashidinia" target="_blank">
           <img
             src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png"
             width="40px"
@@ -27,7 +27,7 @@ export default function HomePage() {
             alt=""
           />
         </Link>
-        <Link to="https://github.com/Amir-Rsh">
+        <Link to="https://github.com/Amir-Rsh" target="_blank">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
             width="40px"
@@ -171,21 +171,39 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      {/* <div className="container3">
-        <div className="trapezoid5">
-          <p id="aboutMeText">
-            {">"}I am a Junior Software Developer with a passion for turning
-            code into cool looking websites and apps. I recently graduated from
-            a coding bootcamp and can't wait to start my journey in the world of
-            tech. I constantly work on new projects to increase my knowledge of
-            coding and add to my tech stack.
+      <div className="container3">
+        <div id="projectNews">PROJECT NC NEWS</div>
+        <div id="newsInfo">
+          <p style={{ textAlign: "center" }}>
+            React.js <br />
+            Bootstrap <br />
+            PostgreSQL <br /> Netlify <br />
+            <Link
+              to="https://nc-news-amir.netlify.app/articles"
+              target="_blank"
+            >
+              <button id="newsLeftButton">Project Page</button>
+            </Link>
+          </p>
+          <img
+            id="newsImage"
+            src="https://i.ibb.co/mhvT3jV/Screenshot-from-2024-03-21-06-52-36-portrait.png"
+            alt=""
+            height="390px"
+            style={{ margin: "auto" }}
+          />
+          <p style={{ textAlign: "center" }}>
+            Node.js <br />
+            Express <br />
+            Render <br />
+            HTML & CSS
+            <br />
+            <Link to="https://github.com/Amir-Rsh/nc_news" target="_blank">
+              <button id="newsRightButton">Code on GitHub</button>
+            </Link>
           </p>
         </div>
-        <div id="bisect">
-          <p id="about">ABOUT ME</p>
-        </div>
-        <div className="trapezoid6"></div>
-      </div> */}
+      </div>
     </>
   );
 }
