@@ -484,6 +484,7 @@ nav {
     width: fit-content;
     margin: 20px auto 0 auto;
     animation: slide 2s 12s;
+    -webkit-animation: slide 2s 12s;
   }
   #arrow {
     font-size: 2.4rem;
@@ -503,6 +504,7 @@ nav {
   }
   #profilePic {
     animation: slideUp 2s forwards 14s;
+    -webkit-animation: slideUp 2s forwards 14s;
     opacity: 0;
   }
   #projectsBlink {
@@ -646,6 +648,15 @@ nav {
     color: green;
   }
 }
+@-webkit-keyframes slide {
+  from {
+    color: green;
+    -webkit-transform: translateX(-60vw);
+  }
+  to {
+    color: green;
+  }
+}
 @keyframes arrowDissolve {
   0% {
     color: green;
@@ -674,6 +685,14 @@ nav {
 @keyframes slideUp {
   from {
     transform: translateY(120%);
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@-webkit-keyframes slideUp {
+  from {
+    -webkit-transform: translateY(120%);
   }
   to {
     opacity: 100%;
