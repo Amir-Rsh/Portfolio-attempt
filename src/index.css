@@ -94,7 +94,7 @@ nav {
   border-radius: 5%;
   margin-top: 60px;
   opacity: 0%;
-  animation: logoAppear 3s forwards 14s;
+  animation: logoAppear 3s forwards 12s;
 }
 #aboutMeText {
   color: black;
@@ -164,7 +164,6 @@ nav {
     font-family: monospace;
     width: fit-content;
     margin: 30px auto auto auto;
-    animation: slide 2s 12s;
     z-index: 2000;
   }
   #enter {
@@ -173,12 +172,12 @@ nav {
     background: transparent;
     padding: 20px;
     border-style: none;
-    width: 0px;
+    width: fit-content;
     margin: -10px auto 0 auto;
-    animation: fixButton 0.01 forwards, showButton 1s forwards 14s;
+    animation: showButton 1s forwards 12s;
   }
   #profilePic {
-    animation: slideUp 2s forwards 14s;
+    animation: slideUp 2s forwards 12s;
     opacity: 0%;
     width: 190px;
   }
@@ -326,7 +325,6 @@ nav {
     font-family: monospace;
     width: fit-content;
     margin: 30px auto auto auto;
-    animation: slide 2s 12s;
     z-index: 2000;
   }
   #enter {
@@ -335,12 +333,12 @@ nav {
     background: transparent;
     padding: 20px;
     border-style: none;
-    width: 0px;
+    width: fit-content;
     margin: -10px auto 0 auto;
-    animation: fixButton 0.01 forwards, showButton 1s forwards 14s;
+    animation: showButton 1s forwards 12s;
   }
   #profilePic {
-    animation: slideUp 2s forwards 14s;
+    animation: slideUp 2s forwards 12s;
     opacity: 0%;
   }
   #projectsBlink {
@@ -483,28 +481,19 @@ nav {
     font-family: monospace;
     width: fit-content;
     margin: 20px auto 0 auto;
-    animation: slide 2s 12s;
-    -webkit-animation: slide 2s 12s;
-  }
-  #arrow {
-    font-size: 2.4rem;
-
-    color: black;
-    animation: arrowDissolve 2s forwards 12s;
   }
   #enter {
-    width: 0px;
+    width: fit-content;
     font-size: 2em;
     font-family: monospace;
     border-radius: 5%;
     background: transparent;
     padding: 30px;
     border-style: none;
-    animation: showButton 1s forwards 14.01s;
+    animation: showButton 1s forwards 12s;
   }
   #profilePic {
-    animation: slideUp 2s forwards 14s;
-    -webkit-animation: slideUp 2s forwards 14s;
+    animation: slideUp 2s forwards 12s;
     opacity: 0;
   }
   #projectsBlink {
@@ -639,24 +628,6 @@ nav {
   }
 }
 
-@keyframes slide {
-  from {
-    color: green;
-    transform: translateX(-60vw);
-  }
-  to {
-    color: green;
-  }
-}
-@-webkit-keyframes slide {
-  from {
-    color: green;
-    -webkit-transform: translateX(-60vw);
-  }
-  to {
-    color: green;
-  }
-}
 @keyframes arrowDissolve {
   0% {
     color: green;
@@ -671,41 +642,21 @@ nav {
   }
 }
 @keyframes showButton {
-  from {
-    transform: scale(0);
-    background-color: green;
-    width: fit-content;
-  }
   to {
-    transform: scale(100%) translateX(-10px);
     background-color: green;
     width: fit-content;
   }
 }
+
 @keyframes slideUp {
   from {
-    transform: translateY(120%);
+    transform: translateY(100px);
   }
   to {
     opacity: 100%;
   }
 }
-@-webkit-keyframes slideUp {
-  from {
-    -webkit-transform: translateY(120%);
-  }
-  to {
-    opacity: 100%;
-  }
-}
-@keyframes fixButton {
-  from {
-    transform: translateY(-30px);
-  }
-  to {
-    transform: translateY(-30px);
-  }
-}
+
 @keyframes logoAppear {
   from {
     transform: translateY(-130px);

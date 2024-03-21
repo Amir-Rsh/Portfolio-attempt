@@ -23,7 +23,6 @@ export default function IntroPage() {
       </div>
       <br />
       <p id="slider">
-        <span id="arrow">{">"}</span>
         <Link to="home">
           <button id="enter" style={{ color: "black", textDecoration: "none" }}>
             ENTER WEBSITE
