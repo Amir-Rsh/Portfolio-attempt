@@ -16,8 +16,13 @@ export default function HomePage() {
   ) : (
     <>
       <nav>
-        <Link to="https://portfolio-amir-rashidinia.netlify.app/home">
-          <img src="https://i.ibb.co/bR7scSZ/logoooo.png" width="40px" alt="" />
+        <Link to="mailto:amirrashidinia93@gmail.com" target="_blank">
+          <img
+            src="https://i.ibb.co/8K1VdwV/envelope-icon-in-black-colors-mail-signs-illustration-free-png.webp"
+            width="40px"
+            style={{ marginTop: "6px" }}
+            alt=""
+          />
         </Link>
         <Link to="https://www.linkedin.com/in/amir-rashidinia" target="_blank">
           <img

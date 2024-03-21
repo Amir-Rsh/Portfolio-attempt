@@ -8,14 +8,7 @@ function App() {
       <Routes>
         <Route path="/" element={<IntroPage />} />
         <Route path="/home" element={<HomePage />} />
-
-        {/* <Route path="/articles/:article_id" element={<ArticlePage />} />
-        <Route path="/users" element={<Users />} />
-        <Route path="/topics/:topic" element={<ListOfArticles />} />
-        <Route path="*" element={<ErrorPage />} /> */}
       </Routes>
-
-      {/* <HomePage /> */}
     </>
   );
 }
