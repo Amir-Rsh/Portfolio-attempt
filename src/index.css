@@ -9,6 +9,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .loadingPage {
   display: flex;
   flex-direction: column;
@@ -20,10 +21,10 @@ body {
   font-weight: bold;
   color: #000000;
   background-color: green;
-  animation: loaded 1s 3s;
+  animation: loaded 1s forwards 3s;
 }
 #dotLoading {
-  animation: rotates 1s infinite;
+  animation: rotates 1s infinite, dissolves 1s forwards 3s;
   border-color: #000000;
   border-width: 10px;
   border-style: solid;
@@ -43,11 +44,20 @@ body {
 @keyframes loaded {
   20% {
     transform: scale(2);
-    border-radius: 100%;
+    /* border-radius: 50%; */
+    height: 100vh;
   }
   to {
-    transform: scale(0);
-    border-radius: 100%;
+    transform: scale(1);
+    /* border-radius: 50%; */
+    height: 60px;
+    color: transparent;
+    border-color: transparent;
+  }
+}
+@keyframes dissolves {
+  to {
+    border-color: transparent;
   }
 }
 nav {
@@ -58,6 +68,7 @@ nav {
   padding: 10px;
   z-index: 10;
   position: fixed;
+  height: 40px;
 }
 
 #projectsBlink {
