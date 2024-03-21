@@ -24,7 +24,7 @@ export default function IntroPage() {
       <br />
       <p id="slider">
         <span id="arrow">{">"}</span>
-        <Link to={`/home`}>
+        <Link to="home">
           <button id="enter" style={{ color: "black", textDecoration: "none" }}>
             ENTER WEBSITE
           </button>
@@ -32,24 +32,31 @@ export default function IntroPage() {
       </p>
 
       <p id="navDiv" style={{ marginBottom: "0%" }}>
-        <img
-          className="logos"
-          src="https://i.ibb.co/XZwQdtV/Linked-In-logo-initials.png"
-          width="150px"
-          alt=""
-        />
+        <Link to="https://www.linkedin.com/in/amir-rashidinia">
+          {" "}
+          <img
+            className="logos"
+            src="https://i.ibb.co/XZwQdtV/Linked-In-logo-initials.png"
+            width="150px"
+            alt=""
+          />
+        </Link>
+
         <img
           id="profilePic"
           src="https://i.ibb.co/nn6bFZ6/149586453.png"
           alt=""
         />
-        <img
-          className="logos"
-          src="https://i.ibb.co/zhzDFnB/git-2.png"
-          width="150px"
-          height="150px"
-          alt=""
-        />
+        <Link to="https://github.com/Amir-Rsh">
+          {" "}
+          <img
+            className="logos"
+            src="https://i.ibb.co/zhzDFnB/git-2.png"
+            width="150px"
+            height="150px"
+            alt=""
+          />
+        </Link>
       </p>
     </>
   );
