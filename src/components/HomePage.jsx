@@ -171,7 +171,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className="container3">
+      {/* <div className="container3">
         <div className="trapezoid5">
           <p id="aboutMeText">
             {">"}I am a Junior Software Developer with a passion for turning
@@ -185,7 +185,7 @@ export default function HomePage() {
           <p id="about">ABOUT ME</p>
         </div>
         <div className="trapezoid6"></div>
-      </div>
+      </div> */}
     </>
   );
 }
