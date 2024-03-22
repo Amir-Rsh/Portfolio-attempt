@@ -743,12 +743,14 @@ nav {
     width: 140px !important;
     height: 40px !important;
     margin: auto auto auto auto !important;
+    font-size: x-small !important;
   }
   #tipperButtonBottom {
     transform: rotate(90deg);
     width: 140px !important;
     height: 40px !important;
     margin: 160px auto auto auto !important;
+    font-size: x-small !important;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 959px) {
@@ -761,12 +763,14 @@ nav {
     width: 140px !important;
     height: 40px !important;
     margin: auto auto auto 0 !important;
+    font-size: x-small !important;
   }
   #tipperButtonBottom {
     transform: rotate(90deg);
     width: 140px !important;
     height: 40px !important;
     margin: 160px auto auto 0 !important;
+    font-size: x-small !important;
   }
 }
 @media only screen and (min-width: 603px) and (max-width: 699px) {
@@ -779,12 +783,14 @@ nav {
     width: 140px !important;
     height: 40px !important;
     margin: auto auto auto 0 !important;
+    font-size: x-small !important;
   }
   #tipperButtonBottom {
     transform: rotate(90deg);
     width: 140px !important;
     height: 40px !important;
     margin: 160px auto auto 0 !important;
+    font-size: x-small !important;
   }
   #tipperPic {
     width: 150px !important;
@@ -801,12 +807,14 @@ nav {
     width: 140px !important;
     height: 40px !important;
     margin: auto auto auto -24px !important;
+    font-size: x-small !important;
   }
   #tipperButtonBottom {
     transform: rotate(90deg);
     width: 140px !important;
     height: 40px !important;
     margin: 160px auto auto -24px !important;
+    font-size: x-small !important;
   }
   #tipperPic {
     width: 150px !important;
@@ -823,12 +831,14 @@ nav {
     width: 140px !important;
     height: 30px !important;
     margin: auto auto auto -24px !important;
+    font-size: x-small !important;
   }
   #tipperButtonBottom {
     transform: rotate(90deg);
     width: 140px !important;
     height: 30px !important;
     margin: 160px auto auto -24px !important;
+    font-size: x-small !important;
   }
   #tipperPic {
     width: 120px !important;
@@ -848,12 +858,14 @@ nav {
     width: 140px !important;
     height: 30px !important;
     margin: auto auto auto -24px !important;
+    font-size: x-small !important;
   }
   #tipperButtonBottom {
     transform: rotate(90deg);
     width: 140px !important;
     height: 30px !important;
     margin: 160px auto auto -24px !important;
+    font-size: x-small !important;
   }
   #tipperPic {
     width: 120px !important;
@@ -876,12 +888,14 @@ nav {
     width: 140px !important;
     height: 20px !important;
     margin: auto auto auto 3px !important;
+    font-size: x-small !important;
   }
   #tipperButtonBottom {
     transform: rotate(90deg);
     width: 140px !important;
     height: 20px !important;
     margin: 160px auto auto 3px !important;
+    font-size: x-small !important;
   }
   #tipperPic {
     width: 120px !important;
