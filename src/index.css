@@ -224,8 +224,8 @@ nav {
     font-weight: bold;
     font-size: 32px;
     text-align: center;
-    text-wrap: nowrap;
-    transform: rotate(-90deg) translateX(-140px) translateY(30px);
+    width: 200px;
+    transform: rotate(-90deg) translateX(-80px) translateY(-65px);
   }
   #container2 {
     overflow: hidden;
@@ -248,8 +248,9 @@ nav {
     font-weight: bold;
     font-size: 32px;
     text-align: center;
-    text-wrap: nowrap;
-    transform: rotate(90deg) translateX(10px) translateY(40px);
+    /* text-wrap: nowrap; */
+    width: 400px;
+    transform: rotate(90deg) translateX(140px) translateY(220px);
   }
 
   .trapezoid3 {
@@ -269,6 +270,9 @@ nav {
     height: 398px;
     margin-left: 100%;
     margin-top: 1px;
+  }
+  #projectNews {
+    font-size: 28px;
   }
 }
 @media only screen and (min-width: 391px) and (max-width: 602px) {
@@ -384,8 +388,8 @@ nav {
     font-weight: bold;
     font-size: 32px;
     text-align: center;
-    text-wrap: nowrap;
-    transform: rotate(-90deg) translateX(-140px) translateY(30px);
+    width: 200px;
+    transform: rotate(-90deg) translateX(-80px) translateY(-60px);
   }
   #container2 {
     overflow: hidden;
@@ -407,8 +411,8 @@ nav {
     font-weight: bold;
     font-size: 32px;
     text-align: center;
-    text-wrap: nowrap;
-    transform: rotate(90deg) translateX(10px) translateY(45px);
+    width: 400px;
+    transform: rotate(90deg) translateX(150px) translateY(240px);
   }
 
   .trapezoid3 {
@@ -536,8 +540,8 @@ nav {
     font-weight: bold;
     font-size: 42px;
     text-align: center;
-    text-wrap: nowrap;
-    transform: rotate(-90deg) translateX(-140px) translateY(70px);
+    width: 300px;
+    transform: rotate(-90deg) translateX(-70px) translateY(-80px);
   }
   .trapezoid1 {
     background-color: black;
@@ -572,8 +576,8 @@ nav {
     font-weight: bold;
     font-size: 42px;
     text-align: center;
-    text-wrap: nowrap;
-    transform: rotate(90deg) translateX(-40px) translateY(70px);
+    width: 400px;
+    transform: rotate(90deg) translateX(140px) translateY(240px);
   }
 
   .trapezoid3 {
@@ -860,6 +864,9 @@ nav {
 }
 
 @media only screen and (max-width: 427px) {
+  #projects {
+    transform: rotate(90deg) translateX(150px) translateY(220px);
+  }
   #tipperDiv {
     font-size: 0.55rem !important;
     grid-template-columns: 72% 11% 11% 6% !important;
