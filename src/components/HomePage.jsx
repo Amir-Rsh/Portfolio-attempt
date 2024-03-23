@@ -22,6 +22,7 @@ export default function HomePage() {
             width="40px"
             style={{ marginTop: "6px" }}
             alt=""
+            className="interactiveButton"
           />
         </Link>
         <Link to="https://www.linkedin.com/in/amir-rashidinia" target="_blank">
@@ -30,6 +31,7 @@ export default function HomePage() {
             width="40px"
             style={{ margin: "0 50px 0 50px" }}
             alt=""
+            className="interactiveButton"
           />
         </Link>
         <Link to="https://github.com/Amir-Rsh" target="_blank">
@@ -37,6 +39,7 @@ export default function HomePage() {
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
             width="40px"
             alt=""
+            className="interactiveButton"
           />
         </Link>
       </nav>

@@ -9,6 +9,15 @@ body {
   padding: 0;
   margin: 0;
 }
+a:hover {
+  cursor: default;
+}
+button:hover {
+  cursor: pointer;
+}
+.interactiveButton:hover {
+  cursor: pointer !important;
+}
 .container {
   margin-bottom: 20px !important;
   margin-top: 20px !important;
@@ -38,33 +47,6 @@ body {
   border-left-color: transparent;
   padding: 100px;
   border-radius: 50%;
-}
-@keyframes rotates {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@keyframes loaded {
-  20% {
-    transform: scale(2);
-    /* border-radius: 50%; */
-    height: 100vh;
-  }
-  to {
-    transform: scale(1);
-    /* border-radius: 50%; */
-    height: 60px;
-    color: transparent;
-    border-color: transparent;
-  }
-}
-@keyframes dissolves {
-  to {
-    border-color: transparent;
-  }
 }
 nav {
   display: flex;
@@ -99,6 +81,9 @@ nav {
   margin-top: 60px;
   opacity: 0%;
   animation: logoAppear 3s forwards 12s;
+}
+.logos:hover {
+  cursor: pointer;
 }
 #aboutMeText {
   color: black;
@@ -649,6 +634,34 @@ nav {
     color: black;
   }
 }
+
+@keyframes rotates {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loaded {
+  20% {
+    transform: scale(2);
+    /* border-radius: 50%; */
+    height: 100vh;
+  }
+  to {
+    transform: scale(1);
+    /* border-radius: 50%; */
+    height: 60px;
+    color: transparent;
+    border-color: transparent;
+  }
+}
+@keyframes dissolves {
+  to {
+    border-color: transparent;
+  }
+}
 @keyframes showButton {
   to {
     background-color: green;
@@ -702,6 +715,17 @@ nav {
   }
 }
 
+@keyframes showAboutMe {
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes tipperShow {
+  to {
+    opacity: 100%;
+  }
+}
+
 @media only screen and (max-width: 1450px) and (min-width: 950px) {
   #aboutMeText {
     font-size: 1.6rem !important;
@@ -723,16 +747,6 @@ nav {
   }
 }
 
-@keyframes showAboutMe {
-  to {
-    opacity: 100%;
-  }
-}
-@keyframes tipperShow {
-  to {
-    opacity: 100%;
-  }
-}
 @media only screen and (min-width: 960px) and (max-width: 1200px) {
   #tipperDiv {
     font-size: 1rem !important;
