@@ -186,10 +186,7 @@ export default function HomePage() {
             React.js <br />
             Bootstrap <br />
             PostgreSQL <br /> Netlify <br />
-            <Link
-              to="https://nc-news-amir.netlify.app/articles"
-              target="_blank"
-            >
+            <Link to="https://nc-news-amir.netlify.app/" target="_blank">
               <button id="newsLeftButton">Project Page</button>
             </Link>
           </p>
