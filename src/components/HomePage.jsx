@@ -203,8 +203,55 @@ export default function HomePage() {
             Render <br />
             HTML & CSS
             <br />
-            <Link to="https://github.com/Amir-Rsh/nc_news" target="_blank">
+            <Link
+              to="https://github.com/Amir-Rsh/fe-animal-doctor"
+              target="_blank"
+            >
               <button id="newsRightButton">Code on GitHub</button>
+            </Link>
+          </p>
+        </div>
+      </div>
+      <div className="container4">
+        <div id="projectNews">PROJECT ANIMAL RESCUES</div>
+        <div id="newsInfo">
+          <p style={{ textAlign: "center" }}>
+            React Native <br />
+            Mapview <br />
+            MongoDB <br /> Render <br />
+            <Link
+              to="https://github.com/Amir-Rsh/be-animal-rescue"
+              target="_blank"
+            >
+              <button id="newsLeftButton">Backend Code</button>
+            </Link>
+          </p>
+          <iframe
+            style={{
+              borderRadius: 30,
+              borderStyle: "solid",
+              borderColor: "black",
+              borderWidth: 5,
+              marginTop: 10,
+              justifySelf: "center",
+            }}
+            width="500"
+            height="370"
+            src="https://www.youtube.com/embed/-urPIJykL7k?si=fNiC-vlu07CpJDuc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <p style={{ textAlign: "center" }}>
+            Supertest <br />
+            Express <br />
+            Node.js <br />
+            Expo
+            <br />
+            <Link to="https://github.com/Amir-Rsh/nc_news" target="_blank">
+              <button id="newsRightButton">Native Code</button>
             </Link>
           </p>
         </div>
