@@ -250,7 +250,10 @@ export default function HomePage() {
             Node.js <br />
             Expo
             <br />
-            <Link to="https://github.com/Amir-Rsh/nc_news" target="_blank">
+            <Link
+              to="https://github.com/Amir-Rsh/fe-animal-doctor"
+              target="_blank"
+            >
               <button id="newsRightButton">Native Code</button>
             </Link>
           </p>
