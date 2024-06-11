@@ -250,11 +250,62 @@ export default function HomePage() {
             Node.js <br />
             Expo
             <br />
+          </p>
+        </div>
+        <div id="projectNews">PROJECT CLOTHING STORE</div>
+        <div
+          style={{ background: "transparent", display: "flex" }}
+          id="newsInfo"
+        >
+          <p
+            style={{
+              textAlign: "center",
+              backgroundColor: "rgba(0, 128, 0, 0.6)",
+              borderRadius: "15%",
+              marginLeft: "10px",
+            }}
+          >
+            React <br />
+            TypeScript <br />
+            MongoDB <br /> Render <br />
             <Link
-              to="https://github.com/Amir-Rsh/fe-animal-doctor"
+              to="https://github.com/Amir-Rsh/clothing-store"
               target="_blank"
             >
-              <button id="newsRightButton">Native Code</button>
+              <button id="newsLeftButton">Backend Code</button>
+            </Link>
+          </p>
+          <img
+            id="newsImage"
+            src="https://i.ibb.co/kSvwFqd/Screenshot-from-2024-06-11-20-27-01.png"
+            alt=""
+            style={{
+              margin: "auto",
+
+              position: "absolute",
+              zIndex: -1,
+              height: "400px",
+              opacity: 0.4,
+            }}
+          />
+          <p
+            style={{
+              textAlign: "center",
+              backgroundColor: "rgba(0, 128, 0, 0.6)",
+              borderRadius: "15%",
+              marginLeft: "auto",
+              marginRight: "10px",
+            }}
+          >
+            Cookie js <br />
+            Stripe
+            <br />
+            Express
+            <br />
+            Supertest
+            <br />
+            <Link to="https://peran-clothing.netlify.app/" target="_blank">
+              <button id="newsRightButton">Project Page</button>
             </Link>
           </p>
         </div>

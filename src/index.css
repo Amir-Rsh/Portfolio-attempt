@@ -61,7 +61,7 @@ nav {
 
 #projectsBlink {
   text-align: center;
-  animation: blink 1s infinite 4s;
+  animation: blink 1s infinite 2.5s !important;
   opacity: 0%;
 }
 #tipperPic {
@@ -80,7 +80,7 @@ nav {
   border-radius: 5%;
   margin-top: 60px;
   opacity: 0%;
-  animation: logoAppear 3s forwards 12s;
+  animation: logoAppear 3s forwards 8s;
 }
 .logos:hover {
   cursor: pointer;
@@ -92,7 +92,7 @@ nav {
   margin-left: 20px;
   margin: -230px 0px auto 20px;
   opacity: 0;
-  animation: showAboutMe 1s forwards 3.5s;
+  animation: showAboutMe 1s forwards 2s;
 }
 
 @media only screen and (max-width: 390px) {
@@ -437,11 +437,11 @@ nav {
     width: 98%;
     overflow: hidden;
     white-space: nowrap;
-    animation: flash 0.7s infinite, typing 3s steps(13),
-      clearBlink 0.01s forwards 4s;
+    animation: flash 0.7s infinite, typing 1.5s steps(13),
+      clearBlink 0.01s forwards 2.5s;
   }
   #inputSign1 {
-    animation: inputDissolve 0.01s forwards 4s;
+    animation: inputDissolve 0.01s forwards 2.5s;
   }
   #line2 {
     color: black;
@@ -450,11 +450,11 @@ nav {
     width: 98%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s forwards steps(21) 4s, flash 0.8s infinite,
-      clearBlink 0.01s forwards 8s;
+    animation: typing 1.5s forwards steps(21) 2.5s, flash 0.8s infinite,
+      clearBlink 0.01s forwards 5s;
   }
   #inputSign2 {
-    animation: inputDissolve 0.01s forwards 8s;
+    animation: inputDissolve 0.01s forwards 5s;
   }
   #line3 {
     color: black;
@@ -463,11 +463,11 @@ nav {
     width: 98%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s forwards steps(24) 8s, flash 0.8s infinite,
-      clearBlink 0.01s forwards 12s;
+    animation: typing 2s forwards steps(24) 5s, flash 0.8s infinite,
+      clearBlink 0.01s forwards 8s;
   }
   #inputSign3 {
-    animation: inputDissolve 0.01s forwards 12s;
+    animation: inputDissolve 0.01s forwards 8s;
   }
   #slider {
     color: #000000;
@@ -483,10 +483,10 @@ nav {
     background: transparent;
     padding: 30px;
     border-style: none;
-    animation: showButton 1s forwards 12s;
+    animation: showButton 1s forwards 8s;
   }
   #profilePic {
-    animation: slideUp 2s forwards 12s;
+    animation: slideUp 2s forwards 8s;
     opacity: 0;
   }
   #projectsBlink {
@@ -509,7 +509,7 @@ nav {
     width: 200px;
     height: 400px;
     margin-left: 300px;
-    animation: slideLeft 1s forwards 1s;
+    animation: slideLeft 1s forwards;
   }
   .container1 {
     overflow: hidden;
@@ -530,7 +530,7 @@ nav {
   }
   .trapezoid1 {
     background-color: black;
-    animation: slideRight 2s forwards 2s;
+    animation: slideRight 1s forwards 1s;
     border-style: solid;
     border-color: green;
     margin-right: -50px;
@@ -572,13 +572,13 @@ nav {
     width: 600px;
     height: 2000px;
     margin-top: 120vw;
-    animation: slideRight2 1s forwards 5s;
+    animation: slideRight2 1s forwards 3s;
   }
 
   .trapezoid4 {
     background-color: green;
     z-index: 0;
-    animation: slideLeft2 2s forwards 6s;
+    animation: slideLeft2 1s forwards 4s;
     height: 398px;
     margin-left: 100%;
     background-color: black;
