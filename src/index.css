@@ -116,8 +116,8 @@ nav {
     width: 98%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s steps(13), flash 0.8s infinite,
-      clearBlink 0.01s forwards 4s;
+    animation: flash 0.7s infinite, typing 1.5s steps(13),
+      clearBlink 0.01s forwards 2.5s;
   }
   #inputSign1 {
     animation: inputDissolve 0.01s forwards 4s;
@@ -129,8 +129,8 @@ nav {
     width: 98%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s forwards steps(21) 4s, flash 0.8s infinite,
-      clearBlink 0.01s forwards 8s;
+    animation: typing 1.5s forwards steps(21) 2.5s, flash 0.8s infinite,
+      clearBlink 0.01s forwards 5s;
   }
   #inputSign2 {
     animation: inputDissolve 0.01s forwards 8s;
@@ -142,8 +142,8 @@ nav {
     width: 98%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s forwards steps(24) 8s, flash 0.8s infinite,
-      clearBlink 0.01s forwards 12s;
+    animation: typing 2s forwards steps(24) 5s, flash 0.8s infinite,
+      clearBlink 0.01s forwards 8s;
   }
   #inputSign3 {
     animation: inputDissolve 0.01s forwards 12s;
@@ -163,10 +163,10 @@ nav {
     border-style: none;
     width: fit-content;
     margin: -10px auto 0 auto;
-    animation: showButton 1s forwards 12s;
+    animation: showButton 1s forwards 8s;
   }
   #profilePic {
-    animation: slideUp 2s forwards 12s;
+    animation: slideUp 2s forwards 8s;
     opacity: 0%;
     width: 190px;
   }
@@ -281,8 +281,8 @@ nav {
     width: 98%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s steps(13), flash 0.8s infinite,
-      clearBlink 0.01s forwards 4s;
+    animation: flash 0.7s infinite, typing 1.5s steps(13),
+      clearBlink 0.01s forwards 2.5s;
   }
   #inputSign1 {
     animation: inputDissolve 0.01s forwards 4s;
@@ -294,8 +294,8 @@ nav {
     width: 98%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s forwards steps(21) 4s, flash 0.8s infinite,
-      clearBlink 0.01s forwards 8s;
+    animation: typing 1.5s forwards steps(21) 2.5s, flash 0.8s infinite,
+      clearBlink 0.01s forwards 5s;
   }
   #inputSign2 {
     animation: inputDissolve 0.01s forwards 8s;
@@ -307,8 +307,8 @@ nav {
     width: 98%;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 3s forwards steps(24) 8s, flash 0.8s infinite,
-      clearBlink 0.01s forwards 12s;
+    animation: typing 2s forwards steps(24) 5s, flash 0.8s infinite,
+      clearBlink 0.01s forwards 8s;
   }
   #inputSign3 {
     animation: inputDissolve 0.01s forwards 12s;
@@ -328,10 +328,10 @@ nav {
     border-style: none;
     width: fit-content;
     margin: -10px auto 0 auto;
-    animation: showButton 1s forwards 12s;
+    animation: showButton 1s forwards 8s;
   }
   #profilePic {
-    animation: slideUp 2s forwards 12s;
+    animation: slideUp 2s forwards 8s;
     opacity: 0%;
   }
   #projectsBlink {
@@ -402,7 +402,7 @@ nav {
 
   .trapezoid3 {
     z-index: 1;
-    background-color: green;
+    background-color: rgb(0, 128, 0);
     width: auto;
     height: inherit;
     margin-right: 100vw;
