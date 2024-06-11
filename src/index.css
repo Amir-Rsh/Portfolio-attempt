@@ -983,8 +983,8 @@ nav {
 }
 #newsLeftButton {
   height: 60px;
-  width: 200px;
-  margin-top: 20px;
+  width: fit-content !important;
+  margin: auto !important;
   background-color: black;
   border-radius: 5%;
   border-color: black;
@@ -996,9 +996,7 @@ nav {
 }
 #newsRightButton {
   height: 60px;
-  width: 200px;
-  margin-top: 20px;
-
+  width: fit-content !important;
   background-color: black;
   border-radius: 5%;
   border-color: black;
@@ -1007,6 +1005,7 @@ nav {
   color: green;
   font-weight: bold;
   font-size: 1rem;
+  margin: auto !important;
 }
 @keyframes slideRight3 {
   to {
@@ -1061,12 +1060,7 @@ nav {
   #newsInfo {
     font-size: 0.8rem;
   }
-  #newsLeftButton {
-    transform: scale(0.5) translateX(-30px);
-  }
-  #newsRightButton {
-    transform: scale(0.5) translateX(-40px);
-  }
+
   #newsImage {
     height: 300px;
   }

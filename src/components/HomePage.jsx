@@ -286,6 +286,7 @@ export default function HomePage() {
               zIndex: -1,
               height: "400px",
               opacity: 0.4,
+              width: "100%",
             }}
           />
           <p
