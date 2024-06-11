@@ -285,7 +285,7 @@ export default function HomePage() {
               position: "absolute",
               zIndex: -1,
               height: "400px",
-              opacity: 0.4,
+              opacity: 0.2,
               width: "100%",
             }}
           />

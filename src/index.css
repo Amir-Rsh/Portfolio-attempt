@@ -61,7 +61,7 @@ nav {
 
 #projectsBlink {
   text-align: center;
-  animation: blink 1s infinite 2.5s !important;
+  animation: blink 1s infinite 4s !important;
   opacity: 0%;
 }
 #tipperPic {
@@ -509,7 +509,7 @@ nav {
     width: 200px;
     height: 400px;
     margin-left: 300px;
-    animation: slideLeft 1s forwards;
+    animation: slideLeft 1s forwards 1s;
   }
   .container1 {
     overflow: hidden;
@@ -530,7 +530,7 @@ nav {
   }
   .trapezoid1 {
     background-color: black;
-    animation: slideRight 1s forwards 1s;
+    animation: slideRight 2s forwards 2s;
     border-style: solid;
     border-color: green;
     margin-right: -50px;
@@ -572,13 +572,13 @@ nav {
     width: 600px;
     height: 2000px;
     margin-top: 120vw;
-    animation: slideRight2 1s forwards 3s;
+    animation: slideRight2 1s forwards 5s;
   }
 
   .trapezoid4 {
     background-color: green;
     z-index: 0;
-    animation: slideLeft2 1s forwards 4s;
+    animation: slideLeft2 2s forwards 6s;
     height: 398px;
     margin-left: 100%;
     background-color: black;
