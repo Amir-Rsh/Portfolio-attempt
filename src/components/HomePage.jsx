@@ -250,21 +250,17 @@ export default function HomePage() {
             Node.js <br />
             Expo
             <br />
+            <Link
+              to="https://github.com/Amir-Rsh/fe-animal-doctor"
+              target="_blank"
+            >
+              <button id="newsRightButton">fornt-end code</button>
+            </Link>
           </p>
         </div>
         <div id="projectNews">PROJECT CLOTHING STORE</div>
-        <div
-          style={{ background: "transparent", display: "flex" }}
-          id="newsInfo"
-        >
-          <p
-            style={{
-              textAlign: "center",
-              backgroundColor: "rgba(0, 128, 0, 0.6)",
-              borderRadius: "15%",
-              marginLeft: "10px",
-            }}
-          >
+        <div id="newsInfo">
+          <p style={{ textAlign: "center" }}>
             React <br />
             TypeScript <br />
             MongoDB <br /> Render <br />
@@ -272,32 +268,17 @@ export default function HomePage() {
               to="https://github.com/Amir-Rsh/clothing-store"
               target="_blank"
             >
-              <button id="newsLeftButton">Backend Code</button>
+              <button id="newsLeftButton">GitHub Code</button>
             </Link>
           </p>
           <img
             id="newsImage"
-            src="https://i.ibb.co/kSvwFqd/Screenshot-from-2024-06-11-20-27-01.png"
+            src="https://i.ibb.co/wKbkXP7/Screenshot-20240611-202102-1-portrait.png"
             alt=""
-            style={{
-              margin: "auto",
-
-              position: "absolute",
-              zIndex: -1,
-              height: "400px",
-              opacity: 0.2,
-              width: "100%",
-            }}
+            height="390px"
+            style={{ margin: "auto" }}
           />
-          <p
-            style={{
-              textAlign: "center",
-              backgroundColor: "rgba(0, 128, 0, 0.6)",
-              borderRadius: "15%",
-              marginLeft: "auto",
-              marginRight: "10px",
-            }}
-          >
+          <p style={{ textAlign: "center" }}>
             Cookie js <br />
             Stripe
             <br />

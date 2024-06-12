@@ -92,7 +92,7 @@ nav {
   margin-left: 20px;
   margin: -230px 0px auto 20px;
   opacity: 0;
-  animation: showAboutMe 1s forwards 2s;
+  animation: showAboutMe 1s forwards 3.5s;
 }
 
 @media only screen and (max-width: 390px) {
