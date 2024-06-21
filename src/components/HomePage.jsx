@@ -16,31 +16,52 @@ export default function HomePage() {
   ) : (
     <>
       <nav>
-        <Link to="mailto:amirrashidinia93@gmail.com" target="_blank">
-          <img
-            src="https://i.ibb.co/8K1VdwV/envelope-icon-in-black-colors-mail-signs-illustration-free-png.webp"
-            width="40px"
-            style={{ marginTop: "6px" }}
-            alt=""
-            className="interactiveButton"
-          />
+        <Link
+          style={{
+            textDecoration: "none",
+            color: "black",
+            marginRight: "100px",
+          }}
+          to="mailto:amirrashidinia93@gmail.com"
+          target="_blank"
+        >
+          <i
+            style={{
+              transform: "scale(2.2)",
+              marginTop: "10px",
+              cursor: "pointer",
+            }}
+            className="fa-solid fa-envelope"
+          ></i>
         </Link>
-        <Link to="https://www.linkedin.com/in/amir-rashidinia" target="_blank">
-          <img
-            src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png"
-            width="40px"
-            style={{ margin: "0 50px 0 50px" }}
-            alt=""
-            className="interactiveButton"
-          />
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="https://www.linkedin.com/in/amir-rashidinia"
+          target="_blank"
+        >
+          <i
+            style={{
+              transform: "scale(2.2)",
+              marginTop: "10px",
+              cursor: "pointer",
+            }}
+            className="fa-brands fa-linkedin"
+          ></i>
         </Link>
-        <Link to="https://github.com/Amir-Rsh" target="_blank">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/800px-GitHub_Invertocat_Logo.svg.png"
-            width="40px"
-            alt=""
-            className="interactiveButton"
-          />
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="https://github.com/Amir-Rsh"
+          target="_blank"
+        >
+          <i
+            style={{
+              transform: "scale(2.2)",
+              marginTop: "10px",
+              marginLeft: "100px",
+              cursor: "pointer",
+            }}
+            className="fa-brands fa-github"
+          ></i>
         </Link>
       </nav>
       <div className="container1">
@@ -72,12 +93,10 @@ export default function HomePage() {
               color: "black",
               fontSize: "2rem",
               fontWeight: "bold",
-              // marginLeft: "230px",
               width: "100%",
               gridTemplateAreas: "a b c d",
               gridTemplateColumns: "35% 20% 20% 25%",
               opacity: "0",
-              animation: "tipperShow 1s forwards 7.6s",
             }}
           >
             <div
@@ -109,7 +128,6 @@ export default function HomePage() {
             <p
               style={{
                 lineHeight: "63px",
-                // marginLeft: "50px",
                 borderRight: "3px",
                 borderColor: "black",
                 borderRightStyle: "solid",
@@ -239,10 +257,9 @@ export default function HomePage() {
             height="370"
             src="https://www.youtube.com/embed/-urPIJykL7k?si=fNiC-vlu07CpJDuc"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
           <p style={{ textAlign: "center" }}>
             Supertest <br />

@@ -15,9 +15,6 @@ a:hover {
 button:hover {
   cursor: pointer;
 }
-.interactiveButton:hover {
-  cursor: pointer !important;
-}
 .container {
   margin-bottom: 20px !important;
   margin-top: 20px !important;
@@ -61,7 +58,7 @@ nav {
 
 #projectsBlink {
   text-align: center;
-  animation: blink 1s infinite 4s !important;
+  animation: blink 1s infinite 1.5s !important;
   opacity: 0%;
 }
 #tipperPic {
@@ -92,7 +89,28 @@ nav {
   margin-left: 20px;
   margin: -230px 0px auto 20px;
   opacity: 0;
-  animation: showAboutMe 1s forwards 3.5s;
+  animation: showAboutMe 1s forwards 1.3s;
+}
+.trapezoid1 {
+  animation: slideRight 0.5s forwards 1s;
+}
+.trapezoid2 {
+  animation: slideLeft 0.5s forwards 0.5s;
+}
+.trapezoid3 {
+  animation: slideRight2 0.5s forwards 1.5s;
+}
+.trapezoid4 {
+  animation: slideLeft2 0.5s forwards 2s;
+}
+#tipperDiv {
+  animation: tipperShow 1s forwards 2.3s;
+}
+#projectNews {
+  animation: slideRight3 0.5s forwards 2s;
+}
+#newsInfo {
+  animation: slideLeft3 0.5s forwards 2s;
 }
 
 @media only screen and (max-width: 390px) {
@@ -182,7 +200,6 @@ nav {
   }
   .trapezoid1 {
     background-color: black;
-    animation: slideRight 2s forwards 2s;
     border-style: solid;
     border-color: green;
     transform: translateX(-100%);
@@ -193,7 +210,6 @@ nav {
     width: 200px;
     height: 400px;
     margin: 0px 0px auto 400px;
-    animation: slideLeft 1s forwards 1s;
   }
   .container1 {
     overflow: hidden;
@@ -233,7 +249,6 @@ nav {
     font-weight: bold;
     font-size: 32px;
     text-align: center;
-    /* text-wrap: nowrap; */
     width: 400px;
     transform: rotate(90deg) translateX(140px) translateY(220px);
   }
@@ -245,13 +260,11 @@ nav {
     height: inherit;
     margin-right: 100vw;
     margin-top: 30px;
-    animation: slideRight2 1s forwards 5s;
   }
 
   .trapezoid4 {
     background-color: green;
     z-index: 0;
-    animation: slideLeft2 2s forwards 6s;
     height: 398px;
     margin-left: 100%;
     margin-top: 1px;
@@ -346,7 +359,6 @@ nav {
 
   .trapezoid1 {
     background-color: black;
-    animation: slideRight 2s forwards 2s;
     border-style: solid;
     border-color: green;
     transform: translateX(-100%);
@@ -357,7 +369,6 @@ nav {
     width: 200px;
     height: 400px;
     margin: 0px 0px auto 400px;
-    animation: slideLeft 1s forwards 1s;
   }
   .container1 {
     overflow: hidden;
@@ -407,13 +418,11 @@ nav {
     height: inherit;
     margin-right: 100vw;
     margin-top: 30px;
-    animation: slideRight2 1s forwards 5s;
   }
 
   .trapezoid4 {
     background-color: green;
     z-index: 0;
-    animation: slideLeft2 2s forwards 6s;
     height: 398px;
     margin-left: 100%;
     margin-top: 1px;
@@ -492,7 +501,6 @@ nav {
   #projectsBlink {
     font-size: 42px;
     text-align: center;
-    animation: blink 1s infinite 4s;
     opacity: 0%;
   }
   #bisect {
@@ -509,7 +517,6 @@ nav {
     width: 200px;
     height: 400px;
     margin-left: 300px;
-    animation: slideLeft 1s forwards 1s;
   }
   .container1 {
     overflow: hidden;
@@ -530,7 +537,6 @@ nav {
   }
   .trapezoid1 {
     background-color: black;
-    animation: slideRight 2s forwards 2s;
     border-style: solid;
     border-color: green;
     margin-right: -50px;
@@ -572,13 +578,11 @@ nav {
     width: 600px;
     height: 2000px;
     margin-top: 120vw;
-    animation: slideRight2 1s forwards 5s;
   }
 
   .trapezoid4 {
     background-color: green;
     z-index: 0;
-    animation: slideLeft2 2s forwards 6s;
     height: 398px;
     margin-left: 100%;
     background-color: black;
@@ -965,8 +969,6 @@ nav {
   background-color: green;
   text-align: center;
   transform: translateX(-100%);
-
-  animation: slideRight3 1s forwards 7s;
 }
 #newsInfo {
   display: grid;
@@ -979,7 +981,6 @@ nav {
   transform: translateX(100%);
   margin-bottom: 30px;
   overflow: hidden;
-  animation: slideLeft3 1s forwards 7s;
 }
 #newsLeftButton {
   height: 60px;
