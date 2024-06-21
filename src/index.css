@@ -74,7 +74,6 @@ nav {
 }
 
 .logos {
-  border-radius: 5%;
   margin-top: 60px;
   opacity: 0%;
   animation: logoAppear 3s forwards 8s;
@@ -124,9 +123,8 @@ nav {
     display: inline-block;
     height: 40px;
   }
-  .logos {
-    width: 50px;
-    height: 50px;
+  .logos i {
+    transform: scale(2) !important;
   }
   #line1 {
     font-family: monospace;
@@ -138,7 +136,7 @@ nav {
       clearBlink 0.01s forwards 2.5s;
   }
   #inputSign1 {
-    animation: inputDissolve 0.01s forwards 4s;
+    animation: inputDissolve 0.01s forwards 2.5s;
   }
   #line2 {
     color: black;
@@ -151,7 +149,7 @@ nav {
       clearBlink 0.01s forwards 5s;
   }
   #inputSign2 {
-    animation: inputDissolve 0.01s forwards 8s;
+    animation: inputDissolve 0.01s forwards 5s;
   }
   #line3 {
     color: black;
@@ -164,7 +162,7 @@ nav {
       clearBlink 0.01s forwards 8s;
   }
   #inputSign3 {
-    animation: inputDissolve 0.01s forwards 12s;
+    animation: inputDissolve 0.01s forwards 8s;
   }
   #slider {
     color: black;
@@ -284,9 +282,8 @@ nav {
     display: inline-block;
     height: 40px;
   }
-  .logos {
-    width: 50px;
-    height: 50px;
+  .logos i {
+    transform: scale(2) !important;
   }
   #line1 {
     font-family: monospace;
@@ -298,7 +295,7 @@ nav {
       clearBlink 0.01s forwards 2.5s;
   }
   #inputSign1 {
-    animation: inputDissolve 0.01s forwards 4s;
+    animation: inputDissolve 0.01s forwards 2.5s;
   }
   #line2 {
     color: black;
@@ -311,7 +308,7 @@ nav {
       clearBlink 0.01s forwards 5s;
   }
   #inputSign2 {
-    animation: inputDissolve 0.01s forwards 8s;
+    animation: inputDissolve 0.01s forwards 5s;
   }
   #line3 {
     color: black;
@@ -324,7 +321,7 @@ nav {
       clearBlink 0.01s forwards 8s;
   }
   #inputSign3 {
-    animation: inputDissolve 0.01s forwards 12s;
+    animation: inputDissolve 0.01s forwards 8s;
   }
   #slider {
     color: black;

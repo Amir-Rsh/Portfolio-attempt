@@ -31,14 +31,20 @@ export default function IntroPage() {
       </p>
 
       <p id="navDiv" style={{ marginBottom: "0%" }}>
-        <Link to="https://www.linkedin.com/in/amir-rashidinia" target="_blank">
-          {" "}
-          <img
-            className="logos"
-            src="https://i.ibb.co/XZwQdtV/Linked-In-logo-initials.png"
-            width="150px"
-            alt=""
-          />
+        <Link
+          className="logos"
+          style={{ textDecoration: "none", color: "darkgreen" }}
+          to="https://www.linkedin.com/in/amir-rashidinia"
+          target="_blank"
+        >
+          <i
+            style={{
+              transform: "scale(5)",
+              marginRight: "10px",
+              cursor: "pointer",
+            }}
+            className="fa-brands fa-linkedin"
+          ></i>
         </Link>
 
         <img
@@ -46,15 +52,20 @@ export default function IntroPage() {
           src="https://i.ibb.co/nn6bFZ6/149586453.png"
           alt=""
         />
-        <Link to="https://github.com/Amir-Rsh" target="_blank">
-          {" "}
-          <img
-            className="logos"
-            src="https://i.ibb.co/zhzDFnB/git-2.png"
-            width="150px"
-            height="150px"
-            alt=""
-          />
+        <Link
+          className="logos"
+          style={{ textDecoration: "none", color: "darkgreen" }}
+          to="https://github.com/Amir-Rsh"
+          target="_blank"
+        >
+          <i
+            style={{
+              transform: "scale(5)",
+              marginLeft: "10px",
+              cursor: "pointer",
+            }}
+            className="fa-brands fa-github"
+          ></i>
         </Link>
       </p>
     </>
