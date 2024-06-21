@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 export default function IntroPage() {
-  // {">"}
   return (
     <>
       <div style={{ marginTop: "90px" }} className="container">
@@ -33,7 +32,7 @@ export default function IntroPage() {
       <p id="navDiv" style={{ marginBottom: "0%" }}>
         <Link
           className="logos"
-          style={{ textDecoration: "none", color: "darkgreen" }}
+          style={{ textDecoration: "none", color: "green" }}
           to="https://www.linkedin.com/in/amir-rashidinia"
           target="_blank"
         >
@@ -54,7 +53,7 @@ export default function IntroPage() {
         />
         <Link
           className="logos"
-          style={{ textDecoration: "none", color: "darkgreen" }}
+          style={{ textDecoration: "none", color: "green" }}
           to="https://github.com/Amir-Rsh"
           target="_blank"
         >
