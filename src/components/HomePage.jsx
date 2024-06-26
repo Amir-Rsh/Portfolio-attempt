@@ -308,6 +308,39 @@ export default function HomePage() {
             </Link>
           </p>
         </div>
+        <div id="projectNews">CLIENT PORTFOLIO</div>
+        <div id="newsInfo">
+          <p style={{ textAlign: "center" }}>
+            Netlify <br />
+            TypeScript <br />
+            React <br /> GitHub <br />
+            <Link
+              to="https://github.com/Amir-Rsh/yas-portfolio"
+              target="_blank"
+            >
+              <button id="newsLeftButton">GitHub Code</button>
+            </Link>
+          </p>
+          <img
+            id="newsImage"
+            src="https://i.ibb.co/9pgmrTS/Screenshot-20240626-155025-portrait.png"
+            alt=""
+            height="390px"
+            style={{ margin: "auto" }}
+          />
+          <p style={{ textAlign: "center" }}>
+            Node js <br />
+            HTML
+            <br />
+            Vanilla CSS
+            <br />
+            Netlify
+            <br />
+            <Link to="https://yas-yazdanian.net/" target="_blank">
+              <button id="newsRightButton">Project Page</button>
+            </Link>
+          </p>
+        </div>
       </div>
     </>
   );
