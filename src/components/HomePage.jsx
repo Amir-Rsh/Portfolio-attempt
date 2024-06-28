@@ -334,9 +334,43 @@ export default function HomePage() {
             <br />
             Vanilla CSS
             <br />
-            Netlify
+            Namecheap
             <br />
             <Link to="https://yas-yazdanian.net/" target="_blank">
+              <button id="newsRightButton">Project Page</button>
+            </Link>
+          </p>
+        </div>
+        <div id="projectNews">3D PETFINDER</div>
+        <div id="newsInfo">
+          <p style={{ textAlign: "center" }}>
+            Three JS <br />
+            Vanilla JS <br />
+            Figma <br /> GitHub <br />
+            <Link to="https://github.com/Amir-Rsh/3d-petfinder" target="_blank">
+              <button id="newsLeftButton">GitHub Code</button>
+            </Link>
+          </p>
+          <img
+            id="newsImage"
+            src="https://i.ibb.co/TP80tx5/Screenshot-20240628-071850-portrait.png"
+            alt=""
+            height="390px"
+            style={{ margin: "auto" }}
+          />
+          <p style={{ textAlign: "center" }}>
+            AWS
+            <br />
+            HTML
+            <br />
+            Vanilla CSS
+            <br />
+            Node js
+            <br />
+            <Link
+              to="https://master.d3m0it9z81slrf.amplifyapp.com"
+              target="_blank"
+            >
               <button id="newsRightButton">Project Page</button>
             </Link>
           </p>
