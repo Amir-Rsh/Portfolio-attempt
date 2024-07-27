@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import LoadingPage from "./LoadingPage";
+import petfinderImage from "../assets/Screenshot_20240628-071850-portrait.png";
+import yasImage from "../assets/Screenshot_20240626-155025-portrait.png";
+import newsImage from "../assets/Screenshot from 2024-03-21 06-52-36-portrait.png";
+import clothingImage from "../assets/Screenshot_20240611-202102-portrait.png";
+import tipperImage from "../assets/Screenshot from 2024-03-20 18-19-02.png";
 
 export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
@@ -106,11 +111,7 @@ export default function HomePage() {
                 justifyContent: "right",
               }}
             >
-              <img
-                id="tipperPic"
-                src="https://i.ibb.co/SxK1ZRY/Screenshot-from-2024-03-20-18-19-02-1.png"
-                alt=""
-              />
+              <img id="tipperPic" src={tipperImage} alt="" />
             </div>
             <p
               style={{
@@ -210,7 +211,7 @@ export default function HomePage() {
           </p>
           <img
             id="newsImage"
-            src="https://i.ibb.co/mhvT3jV/Screenshot-from-2024-03-21-06-52-36-portrait.png"
+            src={newsImage}
             alt=""
             height="390px"
             style={{ margin: "auto" }}
@@ -290,7 +291,7 @@ export default function HomePage() {
           </p>
           <img
             id="newsImage"
-            src="https://i.ibb.co/wKbkXP7/Screenshot-20240611-202102-1-portrait.png"
+            src={clothingImage}
             alt=""
             height="390px"
             style={{ margin: "auto" }}
@@ -323,7 +324,7 @@ export default function HomePage() {
           </p>
           <img
             id="newsImage"
-            src="https://i.ibb.co/9pgmrTS/Screenshot-20240626-155025-portrait.png"
+            src={yasImage}
             alt=""
             height="390px"
             style={{ margin: "auto" }}
@@ -353,7 +354,7 @@ export default function HomePage() {
           </p>
           <img
             id="newsImage"
-            src="https://i.ibb.co/TP80tx5/Screenshot-20240628-071850-portrait.png"
+            src={petfinderImage}
             alt=""
             height="390px"
             style={{ margin: "auto" }}

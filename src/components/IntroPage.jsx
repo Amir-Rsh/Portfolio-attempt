@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import myImage from "../assets/149586453.png";
 
 export default function IntroPage() {
   return (
@@ -46,11 +47,7 @@ export default function IntroPage() {
           ></i>
         </Link>
 
-        <img
-          id="profilePic"
-          src="https://i.ibb.co/nn6bFZ6/149586453.png"
-          alt=""
-        />
+        <img id="profilePic" src={myImage} alt="" />
         <Link
           className="logos"
           style={{ textDecoration: "none", color: "green" }}
