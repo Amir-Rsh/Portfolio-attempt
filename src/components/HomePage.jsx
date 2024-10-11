@@ -309,7 +309,7 @@ export default function HomePage() {
             </Link>
           </p>
         </div>
-        <div id="projectNews">CLIENT PORTFOLIO</div>
+        {/* <div id="projectNews">CLIENT PORTFOLIO</div>
         <div id="newsInfo">
           <p style={{ textAlign: "center" }}>
             Netlify <br />
@@ -341,7 +341,7 @@ export default function HomePage() {
               <button id="newsRightButton">Project Page</button>
             </Link>
           </p>
-        </div>
+        </div> */}
         <div id="projectNews">3D PETFINDER</div>
         <div id="newsInfo">
           <p style={{ textAlign: "center" }}>
