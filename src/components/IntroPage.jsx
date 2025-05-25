@@ -34,16 +34,16 @@ export default function IntroPage() {
         <Link
           className="logos"
           style={{ textDecoration: "none", color: "green" }}
-          to="https://www.linkedin.com/in/amir-rashidinia"
+          to="mailto:amirrashidinia93@gmail.com"
           target="_blank"
         >
           <i
             style={{
               transform: "scale(5)",
-              marginRight: "10px",
+              marginTop: "10px",
               cursor: "pointer",
             }}
-            className="fa-brands fa-linkedin"
+            className="fa-solid fa-envelope"
           ></i>
         </Link>
 

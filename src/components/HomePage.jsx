@@ -41,20 +41,6 @@ export default function HomePage() {
         </Link>
         <Link
           style={{ textDecoration: "none", color: "black" }}
-          to="https://www.linkedin.com/in/amir-rashidinia"
-          target="_blank"
-        >
-          <i
-            style={{
-              transform: "scale(2.2)",
-              marginTop: "10px",
-              cursor: "pointer",
-            }}
-            className="fa-brands fa-linkedin"
-          ></i>
-        </Link>
-        <Link
-          style={{ textDecoration: "none", color: "black" }}
           to="https://github.com/Amir-Rsh"
           target="_blank"
         >
@@ -73,10 +59,13 @@ export default function HomePage() {
         <div className="trapezoid1">
           <p id="aboutMeText">
             {">"}I am a Junior Software Developer with a passion for turning
-            code into cool looking websites and apps. I recently graduated from
-            a coding bootcamp and can't wait to start my journey in the world of
-            tech. I constantly work on new projects to increase my knowledge of
-            coding and add to my tech stack.
+            code into cool looking websites and apps. I was blessed to have the
+            oppurtunity to work within a cross-functional team of brilliant
+            developers and worked on real-life projects at a large company. I
+            have graduated from a coding bootcamp and earned certificates in
+            conventional and also low-code software development. I constantly
+            work on new projects to increase my knowledge of coding and add to
+            my tech stack.
           </p>
         </div>
         <div id="bisect">
@@ -309,39 +298,7 @@ export default function HomePage() {
             </Link>
           </p>
         </div>
-        {/* <div id="projectNews">CLIENT PORTFOLIO</div>
-        <div id="newsInfo">
-          <p style={{ textAlign: "center" }}>
-            Netlify <br />
-            TypeScript <br />
-            React <br /> GitHub <br />
-            <Link
-              to="https://github.com/Amir-Rsh/yas-portfolio"
-              target="_blank"
-            >
-              <button id="newsLeftButton">GitHub Code</button>
-            </Link>
-          </p>
-          <img
-            id="newsImage"
-            src={yasImage}
-            alt=""
-            height="390px"
-            style={{ margin: "auto" }}
-          />
-          <p style={{ textAlign: "center" }}>
-            Node js <br />
-            HTML
-            <br />
-            Vanilla CSS
-            <br />
-            Namecheap
-            <br />
-            <Link to="https://yas-yazdanian.net/" target="_blank">
-              <button id="newsRightButton">Project Page</button>
-            </Link>
-          </p>
-        </div> */}
+
         <div id="projectNews">3D PETFINDER</div>
         <div id="newsInfo">
           <p style={{ textAlign: "center" }}>
@@ -368,10 +325,7 @@ export default function HomePage() {
             <br />
             Node js
             <br />
-            <Link
-              to="https://master.d3m0it9z81slrf.amplifyapp.com"
-              target="_blank"
-            >
+            <Link to="https://petforlove.netlify.app/" target="_blank">
               <button id="newsRightButton">Project Page</button>
             </Link>
           </p>
