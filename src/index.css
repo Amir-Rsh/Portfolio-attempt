@@ -754,12 +754,12 @@ nav {
     margin-top: 30px !important;
   }
   #aboutMeText {
-    font-size: 0.9rem !important;
+    font-size: 0.72rem !important;
   }
 }
 @media only screen and (max-width: 399px) {
   #aboutMeText {
-    font-size: 0.71rem !important;
+    font-size: 0.68rem !important;
   }
 }
 
