@@ -759,7 +759,7 @@ nav {
 }
 @media only screen and (max-width: 399px) {
   #aboutMeText {
-    font-size: 0.7rem !important;
+    font-size: 0.71rem !important;
   }
 }
 
