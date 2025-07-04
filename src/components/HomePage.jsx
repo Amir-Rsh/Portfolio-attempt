@@ -192,27 +192,22 @@ export default function HomePage() {
       </div>
       <div className="container3">
         <div id="projectNews">Master's Thesis</div>
-        <div id="newsInfo">
-          <p style={{ textAlign: "center" }}>
+        <div className="thesisInfoDiv" id="newsInfo">
+          <p id="thesisInfo" style={{ textAlign: "center" }}>
             Design of novel proteolytically stable peptidomimetics of Goserelin
-            by computer-aided drug design <br />
+            by computer-aided drug design <br /> <br />
+            <Link to="/thesis" target="_blank">
+              <button id="newsRightButton">More Information</button>
+            </Link>
           </p>
+
           <img
-            id="newsImage"
+            id="thesisImg"
             src={dockingImage}
             alt=""
             height="390px"
             style={{ margin: "auto" }}
           />
-          <p style={{ textAlign: "center" }}>
-            Maestro <br />
-            Molecular docking <br />
-            DataWarrior <br />
-            <br />
-            <Link to="/thesis" target="_blank">
-              <button id="newsRightButton">More Information</button>
-            </Link>
-          </p>
         </div>
       </div>
       <div className="container3">

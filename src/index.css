@@ -10,6 +10,9 @@ body {
   margin: 0;
   font-weight: bold;
 }
+#thesisInfo {
+  font-size: 1.5rem;
+}
 a:hover {
   cursor: default;
 }
@@ -968,6 +971,18 @@ nav {
   text-align: center;
   transform: translateX(-100%);
 }
+.thesisInfoDiv {
+  display: grid;
+  grid-template-areas: "a b" !important;
+  grid-template-columns: 35% 65% !important;
+  line-height: 40px !important;
+  background-color: green;
+  margin-top: 10px;
+  height: 400px;
+  transform: translateX(100%);
+  margin-bottom: 30px;
+  overflow: hidden;
+}
 #newsInfo {
   display: grid;
   grid-template-areas: "a b c";
@@ -980,6 +995,7 @@ nav {
   margin-bottom: 30px;
   overflow: hidden;
 }
+
 #newsLeftButton {
   height: 60px;
   width: fit-content !important;
@@ -1023,6 +1039,9 @@ nav {
   #newsInfo {
     font-size: 1rem;
   }
+  #thesisImg {
+    width: 200px;
+  }
   #newsLeftButton {
     transform: scale(0.7);
   }
@@ -1040,6 +1059,9 @@ nav {
   }
   #newsInfo {
     font-size: 1rem;
+  }
+  #thesisInfo {
+    font-size: 0.7rem;
   }
   #newsLeftButton {
     transform: scale(0.7);
@@ -1059,7 +1081,9 @@ nav {
   #newsInfo {
     font-size: 0.8rem;
   }
-
+  #thesisInfo {
+    font-size: 0.53rem;
+  }
   #newsImage {
     height: 300px;
   }
@@ -1075,6 +1099,9 @@ nav {
   }
   #newsInfo {
     font-size: 0.5rem;
+  }
+  #thesisInfo {
+    font-size: 0.49rem;
   }
   #newsLeftButton {
     transform: scale(0.4);
