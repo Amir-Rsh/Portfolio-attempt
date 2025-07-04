@@ -1091,3 +1091,7 @@ nav {
     transform: translateY(-20px) translateX(-10px);
   }
 }
+.thesisText {
+  color: green;
+  font-size: 1.5rem;
+}

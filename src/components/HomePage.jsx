@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import LoadingPage from "./LoadingPage";
 import petfinderImage from "../assets/Screenshot_20240628-071850-portrait.png";
-import yasImage from "../assets/Screenshot_20240626-155025-portrait.png";
+import dockingImage from "../assets/Screenshot from 2025-07-04 13-11-47.png";
 import newsImage from "../assets/Screenshot from 2024-03-21 06-52-36-portrait.png";
 import clothingImage from "../assets/Screenshot_20240611-202102-portrait.png";
 import tipperImage from "../assets/Screenshot from 2024-03-20 18-19-02.png";
@@ -191,6 +191,31 @@ export default function HomePage() {
         </div>
       </div>
       <div className="container3">
+        <div id="projectNews">Master's Thesis</div>
+        <div id="newsInfo">
+          <p style={{ textAlign: "center" }}>
+            Design of novel proteolytically stable peptidomimetics of Goserelin
+            by computer-aided drug design <br />
+          </p>
+          <img
+            id="newsImage"
+            src={dockingImage}
+            alt=""
+            height="390px"
+            style={{ margin: "auto" }}
+          />
+          <p style={{ textAlign: "center" }}>
+            Maestro <br />
+            Molecular docking <br />
+            DataWarrior <br />
+            <br />
+            <Link to="/thesis" target="_blank">
+              <button id="newsRightButton">More Information</button>
+            </Link>
+          </p>
+        </div>
+      </div>
+      <div className="container3">
         <div id="projectNews">PROJECT NC NEWS</div>
         <div id="newsInfo">
           <p style={{ textAlign: "center" }}>
@@ -214,10 +239,7 @@ export default function HomePage() {
             Render <br />
             HTML & CSS
             <br />
-            <Link
-              to="https://github.com/Amir-Rsh/fe-animal-doctor"
-              target="_blank"
-            >
+            <Link to="https://github.com/Amir-Rsh/nc_news" target="_blank">
               <button id="newsRightButton">Code on GitHub</button>
             </Link>
           </p>
