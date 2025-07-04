@@ -58,14 +58,17 @@ export default function HomePage() {
       <div className="container1">
         <div className="trapezoid1">
           <p id="aboutMeText">
-            {">"}I am a Junior Software Developer with a passion for turning
-            code into cool looking websites and apps. I was blessed to have the
-            oppurtunity to work within a cross-functional team of brilliant
-            developers and worked on real-life projects at a large company. I
-            have graduated from a coding bootcamp and earned certificates in
-            conventional and also low-code software development. I constantly
-            work on new projects to increase my knowledge of coding and add to
-            my tech stack.
+            {">"}I am a structure-based drug design researcher and Junior
+            Software Developer with a passion for finding suitable small
+            molecules and peptide drug analogues to bind to receptors within the
+            body that have the potential to improve the human health. I also
+            have fun turning code into cool looking websites and apps. I was
+            blessed to have the oppurtunity to work within a cross-functional
+            team of brilliant developers and worked on real-life projects at a
+            large company. I have earned certificates in conventional and also
+            low-code software development. I constantly work on new projects to
+            increase my knowledge of computer-aided drug design, molecular
+            docking and coding to add to my tech stack.
           </p>
         </div>
         <div id="bisect">
