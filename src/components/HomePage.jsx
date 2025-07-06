@@ -6,6 +6,7 @@ import dockingImage from "../assets/Screenshot from 2025-07-04 13-11-47.png";
 import newsImage from "../assets/Screenshot from 2024-03-21 06-52-36-portrait.png";
 import clothingImage from "../assets/Screenshot_20240611-202102-portrait.png";
 import tipperImage from "../assets/Screenshot from 2024-03-20 18-19-02.png";
+import thesisImg2 from "../assets/Screenshot from 2025-07-06 16-43-18.png";
 
 export default function HomePage() {
   const [isLoading, setIsLoading] = useState(true);
@@ -204,6 +205,26 @@ export default function HomePage() {
           <img
             id="thesisImg"
             src={dockingImage}
+            alt=""
+            height="390px"
+            style={{ margin: "auto" }}
+          />
+        </div>
+      </div>
+      <div className="container3">
+        <div id="projectNews">Pharm-D Thesis</div>
+        <div className="thesisInfoDiv" id="newsInfo">
+          <p id="thesisInfo" style={{ textAlign: "center" }}>
+            Cosmetic toxicity of some ingredients used in various pharmaceutical
+            products <br /> <br />
+            <Link to="/thesis2" target="_blank">
+              <button id="newsRightButton">More Information</button>
+            </Link>
+          </p>
+
+          <img
+            id="thesisImg"
+            src={thesisImg2}
             alt=""
             height="390px"
             style={{ margin: "auto" }}
