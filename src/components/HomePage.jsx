@@ -215,8 +215,8 @@ export default function HomePage() {
         <div id="projectNews">Pharm-D Thesis</div>
         <div className="thesisInfoDiv" id="newsInfo">
           <p id="thesisInfo" style={{ textAlign: "center" }}>
-            Cosmetic toxicity of some ingredients used in various pharmaceutical
-            products <br /> <br />
+            Toxicity of some ingredients used in various Cosmetic products{" "}
+            <br /> <br />
             <Link to="/thesis2" target="_blank">
               <button id="newsRightButton">More Information</button>
             </Link>
